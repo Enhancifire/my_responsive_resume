@@ -2,10 +2,11 @@
 
 import 'package:flutter/material.dart';
 
-import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:my_responsive_resume/constants.dart';
 import 'package:my_responsive_resume/screens/main/main_screen.dart';
-import 'components/home_banner.dart';
+import './components/highlight_info.dart';
+import './components/home_banner.dart';
+import 'components/my_projects.dart';
+import 'components/recommendations.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -15,6 +16,9 @@ class HomeScreen extends StatelessWidget {
     return MainScreen(
       children: [
         HomeBanner(),
+        HighLightInfo(),
+        MyProjects(),
+        // Recommendations()
       ],
     );
   }
