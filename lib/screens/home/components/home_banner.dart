@@ -1,5 +1,6 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
+import 'package:my_responsive_resume/models/contact_email.dart';
 import 'package:my_responsive_resume/responsive.dart';
 
 import '../../../constants.dart';
@@ -51,9 +52,11 @@ class HomeBanner extends StatelessWidget {
                 ),
                 if (!Responsive.isMobileLarge(context))
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      LaunchURL('mailto:fsaiyad990@gmail.com');
+                    },
                     child: Text(
-                      'EXPLORE NOW!',
+                      'GET IN TOUCH!',
                       style: TextStyle(color: darkColor),
                     ),
                     style: TextButton.styleFrom(

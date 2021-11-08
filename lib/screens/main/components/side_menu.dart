@@ -10,20 +10,12 @@ import './area_info_text.dart';
 import './skills.dart';
 import './coding.dart';
 import './knowledge.dart';
+import '../../../models/contact_email.dart';
 
 class SideMenu extends StatelessWidget {
   const SideMenu({
     Key? key,
   }) : super(key: key);
-
-  void _LauncherUrl(String url) async {
-    final launchURL = url;
-    if (await canLaunch(launchURL)) {
-      await launch(launchURL);
-    } else {
-      throw 'Could not launch $launchURL';
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -78,21 +70,21 @@ class SideMenu extends StatelessWidget {
                           Spacer(),
                           IconButton(
                             onPressed: () {
-                              _LauncherUrl(
+                              LaunchURL(
                                   'https://enhancifire.github.io/MyResume/#/');
                             },
                             icon: SvgPicture.asset('assets/icons/twitter.svg'),
                           ),
                           IconButton(
                             onPressed: () {
-                              _LauncherUrl(
+                              LaunchURL(
                                   'https://www.linkedin.com/in/mohammad-faiz-saiyad-295250204');
                             },
                             icon: SvgPicture.asset('assets/icons/linkedin.svg'),
                           ),
                           IconButton(
                             onPressed: () {
-                              _LauncherUrl('https://github.com/Enhancifire');
+                              LaunchURL('https://github.com/Enhancifire');
                             },
                             icon: SvgPicture.asset('assets/icons/github.svg'),
                           ),
