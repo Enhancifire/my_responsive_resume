@@ -50,7 +50,7 @@ class HighLightInfo extends StatelessWidget {
                       counter: AnimatedCounter(
                         value: 350,
                       ),
-                      label: 'Hours Spent',
+                      label: 'Hours Spent Coding',
                     ),
                   ],
                 ),

@@ -6,33 +6,57 @@ class Project {
 
 List<Project> demo_projects = [
   Project(
-    title: "Responsive Admin Panel or Dashboard - Flutter UI",
+    title: "Responsive Resume Website using Flutter",
     description:
-        "On Flutter V2.* web officially supported on a stable branch. Today I share an Admin panel or you can call it dashboard UI build with flutter. Now you can build your app dashboard using flutter. This dashboard contains almost everything that you need like a chart, table, nice small card for showing info.",
+        "Using flutter web, I built a Resume site hosted on Github Pages that has a responsive layout.",
   ),
   Project(
-    title: "E-Commerce Complate App - Flutter UI",
+    title: "Calculator using Flutter",
     description:
-        "In the first part of our complete e-commerce app, we show you how you can create a nice clean onboarding screen for your e-commerce app that can run both Andriod and iOS devices because it builds with flutter. Then on the second episode, we build a Sign in, Forgot Password screen with a custom error indicator.",
+        "Made a Beautiful looking Calculator app using flutter that works on both iOS, Android, Web, Windows, Linux and MacOS.",
   ),
   Project(
-    title: "Outlook Email App Redesign - Flutter Fully Responsive Design UI",
+    title: "Notion Task Manager using Python",
     description:
-        "We redesign the outlook app also make it responsive so that you can run it everywhere on your phone, tab, or web. In this flutter responsive video, we will show you the real power of flutter. Make mobile, web, and desktop app from a single codebase.",
+        "Made a Script that fetches my To-Do list from Notion and Displays it into the Terminal.",
   ),
   Project(
-    title: "Chat/Messaging App Light and Dark Theme - Flutter UI",
+    title: "Chat/Messaging App using Flutter",
     description:
-        "Today we gonna build messing/chat app #ui using #flutter that runs both Android and iOS devices also has a dark and light theme. We create in total 4 screens all of that support both Dark Theme and Light Theme. At first, we design a welcome screen that contains an image with a tag line also has a skip button.",
+        "Built a Chat app named ViChat that uses Flutter and Appwrite backend.",
   ),
   Project(
-    title: "Welcome page, Login Page and Sign up page - Flutter UI",
+    title: "Auto Zoom/Google-Meet Meeting Joiner",
     description:
-        "In the first part of our complete e-commerce app, we show you how you can create a nice clean onboarding screen for your e-commerce app that can run both Andriod and iOS devices because it builds with flutter. Then on the second episode, we build a Sign in, Forgot Password screen with a custom error indicator.",
+        "Made an automatic Meeting joiner using Python that takes a calendar file as input and automatically joins the meetings for Zoom and Google Meet automatically at the correct time.",
   ),
   Project(
-    title: "Covid-19 App - Flutter UI",
+    title: "Alarm Clock in Flutter",
     description:
-        "We redesign the outlook app also make it responsive so that you can run it everywhere on your phone, tab, or web. In this flutter responsive video, we will show you the real power of flutter. Make mobile, web, and desktop app from a single codebase.",
+        "Made an Alarm clock in flutter. Has all the functionality of a Standard Alarm Clock app but has beautiful gradients.",
+  ),
+  Project(
+    title: "Budgeting Application in Flutter",
+    description:
+        "Built a Budget Tracker using Flutter. Tracks all the expenses and shows a graph view of the current week's expenses.",
+  ),
+  Project(
+    title: "Database Management System in C++",
+    description: "Made a fully featured Database Management System in C++.",
+  ),
+  Project(
+    title: "Galaga Clone in Python",
+    description:
+        "Made a clone of the Galaga Game in Python using the Pygame library. Implemented backdoors and cheats in the game.",
+  ),
+  Project(
+    title: "Made a Hand Gesture Tracker",
+    description:
+        "Built a Hand Gesture tracker using Python and OpenCV. Tracks the location of the hands and also displays an overlay over the hands.",
+  ),
+  Project(
+    title: "Made a Socket Chat Room",
+    description:
+        "Made a Chatroom using Websockets in Python. Users can chat and interact with each other through it.",
   ),
 ];
